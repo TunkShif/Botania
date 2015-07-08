@@ -1,5 +1,7 @@
 # MISC
 itemGroup.Botania=植物魔法
+generator.botania-skyblock=玻璃花园
+generator.botania-skyblock.info=不建议植物魔法新人使用哦
 
 #并非本地化条目,请翻译者不要修改此行文本.
 botaniamisc.noloc=botaniamisc.noloc
@@ -115,6 +117,18 @@ botaniamisc.hourglassLock=沙漏已锁定.用森林法杖右击可解锁.
 botaniamisc.locked=锁定
 botaniamisc.stopped=停止
 botaniamisc.lockedStopped=锁定,停止
+botaniamisc.visualize=可视化
+botaniamisc.unvisualize=关闭可视化
+botaniamisc.rightClickToAnchor=右击任意方块来建造结构预览
+botaniamisc.structureComplete=结构完成
+botaniamisc.materialsRequired=材料需求
+botaniamisc.challenges=挑战
+botaniamisc.markCompleted=标记完成
+botaniamisc.markNotCompleted=标记未完成
+botaniamisc.completed=已完成
+botaniamisc.notCompleted=未完成
+botaniamisc.info=信息
+botaniamisc.challengeInfo=了解关于挑战的信息
 
 # NEI INTEGRATION
 botania.nei.brewery=植物酿造
@@ -263,6 +277,7 @@ flowerParticles.frequency=花粒子频率
 lexicon.enable.rotatingItems=辞典页面物品旋转特效
 lexicon.enable.justifiedText=辞典文本调整
 lexicon.render.3D=3D辞典渲染
+manaBar.height=魔力条高度
 powerSystem.subtle=使用微量粒子能量系统
 pylonModel.old=使用旧的水晶模型
 elfPortal.particles.enabled=启用传送门粒子
@@ -468,24 +483,73 @@ achievement.botania:pinkinator.desc=使用粉色手炮
 
 achievement.botania:infiniteFruit=Innocentia
 achievement.botania:infiniteFruit.desc=获得战利品:灰色的果实
-achievement.botania:excaliber=Streaming Heart
+achievement.botania:excaliber=奔流的心
 achievement.botania:excaliber.desc=获得战利品:王者圣剑
-achievement.botania:flugelEye=Angel of Death
+achievement.botania:flugelEye=死亡天使
 achievement.botania:flugelEye.desc=获得战利品:天翼族之眼
-achievement.botania:thorRing=One Step Layered
+achievement.botania:thorRing=分层的一步
 achievement.botania:thorRing.desc=获得战利品:托尔之戒
 achievement.botania:odinRing=回忆补时
 achievement.botania:odinRing.desc=获得战利品:奥丁之戒
-achievement.botania:lokiRing=Arithmetic
+achievement.botania:lokiRing=算术
 achievement.botania:lokiRing.desc=获得战利品:洛基之戒
-achievement.botania:aesirRing=神のまにまに
+achievement.botania:aesirRing=神的随波逐流(神のまにまに)
 achievement.botania:aesirRing.desc=通过合成做出诸神之戒
 
 achievement.botania:nullFlower=Take it Easy
 achievement.botania:nullFlower.desc=发现一个bug导致你有了一朵未定义的植物魔法花.别忘了提交!
-achievement.botania:desuGun=裏表ラバーズ
+achievement.botania:desuGun=里表情人(裏表ラバーズ)
 achievement.botania:desuGun.desc=ASADA-SAN ASADA-SAN ASADA-SAN ASADA-SAN ASADA-SAN ASADA-SAN ASADA-SAN ASADA-SAN ASADA-SAN ASADA-SAN ASADA-SAN ASADA-SAN
 #                                 ^ Don't localize
+
+# CHALLENGE LEVELS
+botania.challengelevel.easy=容易
+botania.challengelevel.normal=普通
+botania.challengelevel.hard=困难
+botania.challengelevel.lunatic=疯狂
+
+# CHALLENGE TEXT
+botania.challenge.flowerFarm=花园农场
+botania.challenge.flowerFarm.desc=创建一个有着十六种颜色的神秘花自动农场. Bonus points if the flowers are sorted.
+botania.challenge.recordFarm=Record Farm
+botania.challenge.recordFarm.desc=Create a system that produces records through the death of creepers at the hand of skeletons. Bonus points if it doesn't require a player's presence.
+botania.challenge.reedFarm=Sugar Cane Farm
+botania.challenge.reedFarm.desc=Create an automated sugar cane farm. Bonus points for not using pistons.
+botania.challenge.cobbleGen=Cobble Generator
+botania.challenge.cobbleGen.desc=Create an automated cobblestone generator and harvester. Bonus points if it also creates smooth stone without a furnace.
+botania.challenge.pureDaisy=Auto Pure Daisy
+botania.challenge.pureDaisy.desc=Completely automate the Pure Daisy. Bonus points if only one spreader is used and/or if the wood/stone input is also automated.
+botania.challenge.battery=Mana Battery
+botania.challenge.battery.desc=Create a Mana Battery, a system where mana enters one pool and comes out of another, with a good amount of pools as a buffer. Bonus points if the input or output can be changed.
+
+botania.challenge.apothecaryRefill=Apothecary Refiller
+botania.challenge.apothecaryRefill.desc=Create a system that automatically refills the Petal Apothecary if it's empty. Bonus points if the system can also automatically create flowers, given the components.
+botania.challenge.treeFarm=Tree Farm
+botania.challenge.treeFarm.desc=Create an automated, self-sustaining tree farm. Bonus points if it can do multiple types of tree.
+botania.challenge.fullCropFarm=Full Crop Farm
+botania.challenge.fullCropFarm.desc=Create a crop farm with all types of crops (wheat, carrot, potato, melon, pumpkin, cocoa and nether wart) that runs at full efficiency. Bonus points if the outputs are sorted. 
+botania.challenge.animalFarm=Animal Farm
+botania.challenge.animalFarm.desc=Create an automated animal farm with all farmable animal types. Bonus points if the food doesn't need to be put in manually.
+botania.challenge.boneMealFarm=Bone Meal-type Farm
+botania.challenge.boneMealFarm.desc=Create an automated farm that utilizes bone meal to quickly grow crops on demand. Bonus points if the Drum of the Wild isn't used.
+botania.challenge.orechid=Automated Orechid
+botania.challenge.orechid.desc=Create a system that allows for the Orechid flower to be fully automated. Bonus points if the output is smelted and sorted.
+
+botania.challenge.mobTower=Spawning Tower
+botania.challenge.mobTower.desc=Create a tower style mob farm. Mobs must be sorted and put into specific chambers at the end. Spawners can be used. Bonus points if the farm functions at 100% efficiency without a player's interaction.
+botania.challenge.entropinnyumSetup=Entropinnyum Setup
+botania.challenge.entropinnyumSetup.desc=Create a system that automatically crafts TNT and safely feeds it to an Entropinnyum flower, creating mana. Bonus points if the sand and gunpowder required for the TNT don't need to be put in manually.
+botania.challenge.spectrolusSetup=Spectrolus Setup
+botania.challenge.spectrolusSetup.desc=Create a system that feeds a Spectrolus, generating mana. Aside from raw mana, no items may be input from outside the system. Bonus points if it operates at 100% efficiency, never wasting any wool. 
+botania.challenge.potionBrewer=Automated Brewing
+botania.challenge.potionBrewer.desc=Create a system that can make all types of brews automatically on demand. Bonus points if it keeps a set of incense always ignited in the player's base.
+
+botania.challenge.kekimurusSetup=Kekimurus Setup
+botania.challenge.kekimurusSetup.desc=Fully automate a Kekimurus, every part of the system must be automated and self-sustaining. Bonus points if only one crafty crate is used.
+botania.challenge.autoQuarry=Automated Quarry
+botania.challenge.autoQuarry.desc=Create a mining quarry that digs for ores and stone underground. It should dig out chunks of land and output all of the mined resources, sorting them. Bonus points if it can relocate automatically after it's done with an area.
+botania.challenge.runeCrafter=Rune Crafter
+botania.challenge.runeCrafter.desc=Create a system that can craft all runes on demand or keep them stocked. Every part of this system must be automated and self-sustaining, including the item inputs. Bonus points if only one Runic Altar block is used. You must be pretty crazy to try this one.
 
 # BLOCK NAMES
 tile.botania:flower0.name=白色神秘花
